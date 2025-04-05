@@ -4,8 +4,8 @@ on:
 #  push:
 #    branches:
 #      - main
-#  schedule:
-#    - cron: '42 0 * * 0'
+  schedule:
+    - cron: '42 0 * * 0'
   workflow_dispatch:
 
 jobs:
@@ -16,6 +16,42 @@ jobs:
       matrix:
         repo:
           - {github: "https://github.com/EpicMorg/.github.git", gitlab: "git@gitlab.com:EpicMorg/dot-github.git"}
+          - {github: "https://github.com/EpicMorg/atlassian-downloader.git" , gitlab: "git@gitlab.com:EpicMorg/atlassian-downloader.git"}
+          - {github: "https://github.com/EpicMorg/docker.git" , gitlab: "git@gitlab.com:EpicMorg/docker.git"}
+          - {github: "https://github.com/EpicMorg/chocolatey.git" , gitlab: "git@gitlab.com:EpicMorg/chocolatey.git"}
+          - {github: "https://github.com/EpicMorg/UniversalValveToolbox.git" , gitlab: "git@gitlab.com:EpicMorg/UniversalValveToolbox.git"}
+          - {github: "https://github.com/EpicMorg/SourceSDK.ENV.Editor.git" , gitlab: "git@gitlab.com:EpicMorg/SourceSDK.ENV.Editor.git"}
+          - {github: "https://github.com/EpicMorg/atlassian-json.git" , gitlab: "git@gitlab.com:EpicMorg/atlassian-json.git"}
+          - {github: "https://github.com/EpicMorg/buildah-wrapper.git" , gitlab: "git@gitlab.com:EpicMorg/buildah-wrapper.git"}
+          - {github: "https://github.com/EpicMorg/kaniko-wrapper.git" , gitlab: "git@gitlab.com:EpicMorg/kaniko-wrapper.git"}
+          - {github: "https://github.com/EpicMorg/jira-issue-web-reporter.git" , gitlab: "git@gitlab.com:EpicMorg/jira-issue-web-reporter.git"}
+          - {github: "https://github.com/EpicMorg/winget-pkgs.git" , gitlab: "git@gitlab.com:EpicMorg/winget-pkgs.git"}
+          - {github: "https://github.com/EpicMorg/MX-FFmpeg.git" , gitlab: "git@gitlab.com:EpicMorg/MX-FFmpeg.git"}
+          - {github: "https://github.com/EpicMorg/ZenJS.git" , gitlab: "git@gitlab.com:EpicMorg/ZenJS.git"}
+          - {github: "https://github.com/EpicMorg/EMHP.git" , gitlab: "git@gitlab.com:EpicMorg/EMHP.git"}
+          - {github: "https://github.com/EpicMorg/EMREX.git" , gitlab: "git@gitlab.com:EpicMorg/EMREX.git"}
+          - {github: "https://github.com/EpicMorg/docker-deprecated-images.git" , gitlab: "git@gitlab.com:EpicMorg/docker-deprecated-images.git"}
+          - {github: "https://github.com/EpicMorg/SteamPathsLib.git" , gitlab: "git@gitlab.com:EpicMorg/SteamPathsLib.git"}
+          - {github: "https://github.com/EpicMorg/windows2go-switcher.git" , gitlab: "git@gitlab.com:EpicMorg/windows2go-switcher.git"}
+          - {github: "https://github.com/EpicMorg/HLControl.git" , gitlab: "git@gitlab.com:EpicMorg/HLControl.git"}
+          - {github: "https://github.com/EpicMorg/MaxPayne2Loader.git" , gitlab: "git@gitlab.com:EpicMorg/MaxPayne2Loader.git"}
+          - {github: "https://github.com/EpicMorg/Postal2ScreenPatcher.git" , gitlab: "git@gitlab.com:EpicMorg/Postal2ScreenPatcher.git"}
+          - {github: "https://github.com/EpicMorg/MaxPayne1Loader.git" , gitlab: "git@gitlab.com:EpicMorg/MaxPayne1Loader.git"}
+          - {github: "https://github.com/EpicMorg/EpicMorg-Supervisor.git" , gitlab: "git@gitlab.com:EpicMorg/EpicMorg-Supervisor.git"}
+          - {github: "https://github.com/EpicMorg/SuperWave-to-WooComemrce-CSV-Converter.git" , gitlab: "git@gitlab.com:EpicMorg/SuperWave-to-WooComemrce-CSV-Converter.git"}
+          - {github: "https://github.com/EpicMorg/SteamCMD_reUI.git" , gitlab: "git@gitlab.com:EpicMorg/SteamCMD_reUI.git"}
+          - {github: "https://github.com/EpicMorg/EMRJT.git" , gitlab: "git@gitlab.com:EpicMorg/EMRJT.git"}
+          - {github: "https://github.com/EpicMorg/img2base64.git" , gitlab: "git@gitlab.com:EpicMorg/img2base64.git"}
+          - {github: "https://github.com/EpicMorg/Easy-ADB-Screenshoter.git" , gitlab: "git@gitlab.com:EpicMorg/Easy-ADB-Screenshoter.git"}
+          - {github: "https://github.com/EpicMorg/infinite.Awaiting.challenge.fixer.quake3.git" , gitlab: "git@gitlab.com:EpicMorg/infinite.Awaiting.challenge.fixer.quake3.git"}
+          - {github: "https://github.com/EpicMorg/modDB_downloader.git" , gitlab: "git@gitlab.com:EpicMorg/modDB_downloader.git"}
+          - {github: "https://github.com/EpicMorg/EMTG.git" , gitlab: "git@gitlab.com:EpicMorg/EMTG.git"}
+          - {github: "https://github.com/EpicMorg/Gamer-Lab_SDK_Launcher.git" , gitlab: "git@gitlab.com:EpicMorg/Gamer-Lab_SDK_Launcher.git"}
+          - {github: "https://github.com/EpicMorg/goldsrc_SDK_Launcher.git" , gitlab: "git@gitlab.com:EpicMorg/goldsrc_SDK_Launcher.git"}
+          - {github: "https://github.com/EpicMorg/goldsource_rcon_manager.git" , gitlab: "git@gitlab.com:EpicMorg/goldsource_rcon_manager.git"}
+          - {github: "https://github.com/EpicMorg/codename_The_Dir.git" , gitlab: "git@gitlab.com:EpicMorg/codename_The_Dir.git"}
+          - {github: "https://github.com/EpicMorg/EMFILEMOVER.git" , gitlab: "git@gitlab.com:EpicMorg/EMFILEMOVER.git"}
+          - {github: "https://github.com/EpicMorg/EMST.git" , gitlab: "git@gitlab.com:EpicMorg/EMST.git"}
 
     steps:
       - name: Set up SSH key
