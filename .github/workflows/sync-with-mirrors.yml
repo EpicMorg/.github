@@ -37,13 +37,13 @@ jobs:
           - {github: "https://github.com/EpicMorg/EMArcadeShell.git", bitbucket: "git@bitbucket.org:epicmorg/emarcadeshell.git", codeberg: "git@codeberg.org:EpicMorg/EMArcadeShell.git", gitlab: "git@gitlab.com:epicmorg/EMArcadeShell.git" }
           - {github: "https://github.com/EpicMorg/EMFILEMOVER.git", bitbucket: "git@bitbucket.org:epicmorg/emfilemover.git", codeberg: "git@codeberg.org:EpicMorg/EMFILEMOVER.git", gitlab: "git@gitlab.com:epicmorg/EMFILEMOVER.git" }
           - {github: "https://github.com/EpicMorg/EMHP.git", bitbucket: "git@bitbucket.org:epicmorg/emhp.git", codeberg: "git@codeberg.org:EpicMorg/EMHP.git", gitlab: "git@gitlab.com:epicmorg/EMHP.git" }
-#          - {github: "", bitbucket: "", codeberg: "", gitlab: "" }
-#          - {github: "", bitbucket: "", codeberg: "", gitlab: "" }
-#          - {github: "", bitbucket: "", codeberg: "", gitlab: "" }
-#          - {github: "", bitbucket: "", codeberg: "", gitlab: "" }
-#          - {github: "", bitbucket: "", codeberg: "", gitlab: "" }
-#          - {github: "", bitbucket: "", codeberg: "", gitlab: "" }
-#          - {github: "", bitbucket: "", codeberg: "", gitlab: "" }
+          - {github: "https://github.com/EpicMorg/EMRadio.git", bitbucket: "git@bitbucket.org:epicmorg/emradio.git", codeberg: "git@codeberg.org:EpicMorg/EMRadio.git", gitlab: "git@gitlab.com:epicmorg/EMRadio.git" }
+          - {github: "https://github.com/EpicMorg/EMREX.git", bitbucket: "git@bitbucket.org:epicmorg/emrex.git", codeberg: "git@codeberg.org:EpicMorg/EMREX.git", gitlab: "git@gitlab.com:epicmorg/EMREX.git" }
+          - {github: "https://github.com/EpicMorg/EMRJT.git", bitbucket: "git@bitbucket.org:epicmorg/emrjt.git", codeberg: "git@codeberg.org:EpicMorg/EMRJT.git", gitlab: "git@gitlab.com:epicmorg/EMRJT.git" }
+          - {github: "https://github.com/EpicMorg/emscripts.git", bitbucket: "git@bitbucket.org:epicmorg/emscripts.git", codeberg: "git@codeberg.org:EpicMorg/emscripts.git", gitlab: "git@gitlab.com:epicmorg/emscripts.git" }
+          - {github: "https://github.com/EpicMorg/EMST.git", bitbucket: "git@bitbucket.org:epicmorg/emst.git", codeberg: "git@codeberg.org:EpicMorg/EMST.git", gitlab: "git@gitlab.com:epicmorg/EMST.git" }
+          - {github: "https://github.com/EpicMorg/EMTG.git", bitbucket: "git@bitbucket.org:epicmorg/emtg.git", codeberg: "git@codeberg.org:EpicMorg/EMTG.git", gitlab: "git@gitlab.com:epicmorg/EMTG.git" }
+          - {github: "https://github.com/EpicMorg/EpicMorg-Supervisor.git", bitbucket: "git@bitbucket.org:epicmorg/epicmorg-supervisor.git", codeberg: "git@codeberg.org:EpicMorg/EpicMorg-Supervisor.git", gitlab: "git@gitlab.com:epicmorg/EpicMorg-Supervisor.git" }
 #          - {github: "", bitbucket: "", codeberg: "", gitlab: "" }
 #          - {github: "", bitbucket: "", codeberg: "", gitlab: "" }
 #          - {github: "", bitbucket: "", codeberg: "", gitlab: "" }
