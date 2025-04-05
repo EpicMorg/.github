@@ -33,9 +33,32 @@ jobs:
           - {github: "https://github.com/EpicMorg/codename_The_Dir.git", bitbucket: "git@bitbucket.org:epicmorg/codename_the_dir.git", codeberg: "git@codeberg.org:EpicMorg/codename_The_Dir.git", gitlab: "git@gitlab.com:epicmorg/codename_The_Dir.git" }
           - {github: "https://github.com/EpicMorg/docker.git", bitbucket: "git@bitbucket.org:epicmorg/docker.git", codeberg: "git@codeberg.org:EpicMorg/docker.git",  gitlab: "git@gitlab.com:EpicMorg/docker.git" }
           - {github: "https://github.com/EpicMorg/Easy-ADB-Screenshoter.git", bitbucket: "git@bitbucket.org:epicmorg/easy-adb-screenshoter.git", codeberg: "git@codeberg.org:EpicMorg/Easy-ADB-Screenshoter.git", gitlab: "git@gitlab.com:epicmorg/Easy-ADB-Screenshoter.git" }
-
-
-
+          - {github: "https://github.com/EpicMorg/EasyLame.git", bitbucket: "git@bitbucket.org:epicmorg/easylame.git", codeberg: "git@codeberg.org:EpicMorg/EasyLame.git", gitlab: "git@gitlab.com:epicmorg/EasyLame.git" }
+          - {github: "https://github.com/EpicMorg/EMArcadeShell.git", bitbucket: "git@bitbucket.org:epicmorg/emarcadeshell.git", codeberg: "git@codeberg.org:EpicMorg/EMArcadeShell.git", gitlab: "git@gitlab.com:epicmorg/EMArcadeShell.git" }
+          - {github: "https://github.com/EpicMorg/EMFILEMOVER.git", bitbucket: "git@bitbucket.org:epicmorg/emfilemover.git", codeberg: "git@codeberg.org:EpicMorg/EMFILEMOVER.git", gitlab: "git@gitlab.com:epicmorg/EMFILEMOVER.git" }
+          - {github: "https://github.com/EpicMorg/EMHP.git", bitbucket: "git@bitbucket.org:epicmorg/emhp.git", codeberg: "git@codeberg.org:EpicMorg/EMHP.git", gitlab: "git@gitlab.com:epicmorg/EMHP.git" }
+#          - {github: "", bitbucket: "", codeberg: "", gitlab: "" }
+#          - {github: "", bitbucket: "", codeberg: "", gitlab: "" }
+#          - {github: "", bitbucket: "", codeberg: "", gitlab: "" }
+#          - {github: "", bitbucket: "", codeberg: "", gitlab: "" }
+#          - {github: "", bitbucket: "", codeberg: "", gitlab: "" }
+#          - {github: "", bitbucket: "", codeberg: "", gitlab: "" }
+#          - {github: "", bitbucket: "", codeberg: "", gitlab: "" }
+#          - {github: "", bitbucket: "", codeberg: "", gitlab: "" }
+#          - {github: "", bitbucket: "", codeberg: "", gitlab: "" }
+#          - {github: "", bitbucket: "", codeberg: "", gitlab: "" }
+#          - {github: "", bitbucket: "", codeberg: "", gitlab: "" }
+#          - {github: "", bitbucket: "", codeberg: "", gitlab: "" }
+#          - {github: "", bitbucket: "", codeberg: "", gitlab: "" }
+#          - {github: "", bitbucket: "", codeberg: "", gitlab: "" }
+#          - {github: "", bitbucket: "", codeberg: "", gitlab: "" }
+#          - {github: "", bitbucket: "", codeberg: "", gitlab: "" }
+#          - {github: "", bitbucket: "", codeberg: "", gitlab: "" }
+#          - {github: "", bitbucket: "", codeberg: "", gitlab: "" }
+#          - {github: "", bitbucket: "", codeberg: "", gitlab: "" }
+#          - {github: "", bitbucket: "", codeberg: "", gitlab: "" }
+#          - {github: "", bitbucket: "", codeberg: "", gitlab: "" }
+#          - {github: "", bitbucket: "", codeberg: "", gitlab: "" }
 
     steps:
       - name: Set up SSH key
