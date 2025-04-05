@@ -22,25 +22,20 @@ jobs:
           - {github: "https://github.com/EpicMorg/AMXx-Model-Spawner-Menu.git", bitbucket: "git@bitbucket.org:epicmorg/amxx-model-spawner-menu.git", codeberg: "git@codeberg.org:EpicMorg/AMXx-Model-Spawner-Menu.git", gitlab: "git@gitlab.com:epicmorg/AMXx-Model-Spawner-Menu.git" }
           - {github: "https://github.com/EpicMorg/AMXx-Player-Renamer.git", bitbucket: "git@bitbucket.org:epicmorg/amxx-player-renamer.git", codeberg: "git@codeberg.org:EpicMorg/AMXx-Player-Renamer.git", gitlab: "git@gitlab.com:epicmorg/AMXx-Player-Renamer.git" }
           - {github: "https://github.com/EpicMorg/AMXx-Sound-connect-announce.git", bitbucket: "git@bitbucket.org:epicmorg/amxx-sound-connect-announce.git", codeberg: "git@codeberg.org:EpicMorg/AMXx-Sound-connect-announce.git", gitlab: "git@gitlab.com:epicmorg/AMXx-Sound-connect-announce.git" }
+          - {github: "https://github.com/EpicMorg/atlassian-downloader.git", bitbucket: "git@bitbucket.org:epicmorg/atlassian-downloader.git", codeberg: "git@codeberg.org:EpicMorg/atlassian-downloader.git", gitlab: "git@gitlab.com:EpicMorg/atlassian-downloader.git"}
+          - {github: "https://github.com/EpicMorg/atlassian-json.git", bitbucket: "git@bitbucket.org:epicmorg/atlassian-json.git", codeberg: "git@codeberg.org:EpicMorg/atlassian-json.git", gitlab: "git@gitlab.com:EpicMorg/atlassian-json.git"}
           - {github: "https://github.com/EpicMorg/avchd2mp4remuxer.git", bitbucket: "git@bitbucket.org:epicmorg/avchd2mp4remuxer.git", codeberg: "git@codeberg.org:EpicMorg/avchd2mp4remuxer.git", gitlab: "git@gitlab.com:epicmorg/avchd2mp4remuxer.git" }
           - {github: "https://github.com/EpicMorg/binaryBeer.git", bitbucket: "git@bitbucket.org:epicmorg/binarybeer.git", codeberg: "git@codeberg.org:EpicMorg/binaryBeer.git", gitlab: "git@gitlab.com:epicmorg/binaryBeer.git" }
           - {github: "https://github.com/EpicMorg/buildah-wrapper.git", bitbucket: "git@bitbucket.org:epicmorg/buildah-wrapper.git", codeberg: "git@codeberg.org:EpicMorg/buildah-wrapper.git", gitlab: "git@gitlab.com:epicmorg/buildah-wrapper.git" }
           - {github: "https://github.com/EpicMorg/Cachet.git", bitbucket: "git@bitbucket.org:epicmorg/cachet.git", codeberg: "git@codeberg.org:EpicMorg/Cachet.git", gitlab: "git@gitlab.com:epicmorg/Cachet.git" }
           - {github: "https://github.com/EpicMorg/chocolatey.git", bitbucket: "git@bitbucket.org:epicmorg/chocolatey.git", codeberg: "git@codeberg.org:EpicMorg/chocolatey.git", gitlab: "git@gitlab.com:epicmorg/chocolatey.git" }
           - {github: "https://github.com/EpicMorg/CloudFlare-WebPanel.git", bitbucket: "git@bitbucket.org:epicmorg/cloudflare-webpanel.git", codeberg: "git@codeberg.org:EpicMorg/CloudFlare-WebPanel.git", gitlab: "git@gitlab.com:epicmorg/CloudFlare-WebPanel.git" }
-#          - {github: "", bitbucket: "", codeberg: "", gitlab: "" }
-#          - {github: "", bitbucket: "", codeberg: "", gitlab: "" }
-#          - {github: "", bitbucket: "", codeberg: "", gitlab: "" }
-#          - {github: "", bitbucket: "", codeberg: "", gitlab: "" }
-#          - {github: "", bitbucket: "", codeberg: "", gitlab: "" }
-#          - {github: "", bitbucket: "", codeberg: "", gitlab: "" }
-#          - {github: "", bitbucket: "", codeberg: "", gitlab: "" }
-#          - {github: "", bitbucket: "", codeberg: "", gitlab: "" }
-#          - {github: "", bitbucket: "", codeberg: "", gitlab: "" }
-#          - {github: "", bitbucket: "", codeberg: "", gitlab: "" }
+          - {github: "https://github.com/EpicMorg/codename_The_Dir.git", bitbucket: "git@bitbucket.org:epicmorg/codename_the_dir.git", codeberg: "git@codeberg.org:EpicMorg/codename_The_Dir.git", gitlab: "git@gitlab.com:epicmorg/codename_The_Dir.git" }
           - {github: "https://github.com/EpicMorg/docker.git", bitbucket: "git@bitbucket.org:epicmorg/docker.git", codeberg: "git@codeberg.org:EpicMorg/docker.git",  gitlab: "git@gitlab.com:EpicMorg/docker.git" }
-          - {github: "https://github.com/EpicMorg/atlassian-downloader.git", bitbucket: "git@bitbucket.org:epicmorg/atlassian-downloader.git", codeberg: "git@codeberg.org:EpicMorg/atlassian-downloader.git", gitlab: "git@gitlab.com:EpicMorg/atlassian-downloader.git"}
-          - {github: "https://github.com/EpicMorg/atlassian-json.git", bitbucket: "git@bitbucket.org:epicmorg/atlassian-json.git", codeberg: "git@codeberg.org:EpicMorg/atlassian-json.git", gitlab: "git@gitlab.com:EpicMorg/atlassian-json.git"}
+          - {github: "https://github.com/EpicMorg/Easy-ADB-Screenshoter.git", bitbucket: "git@bitbucket.org:epicmorg/easy-adb-screenshoter.git", codeberg: "git@codeberg.org:EpicMorg/Easy-ADB-Screenshoter.git", gitlab: "git@gitlab.com:epicmorg/Easy-ADB-Screenshoter.git" }
+
+
+
 
     steps:
       - name: Set up SSH key
