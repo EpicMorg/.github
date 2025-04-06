@@ -44,7 +44,7 @@ jobs:
           - {github: "https://github.com/EpicMorg/EMST.git", bitbucket: "git@bitbucket.org:epicmorg/emst.git", codeberg: "git@codeberg.org:EpicMorg/EMST.git", gitlab: "git@gitlab.com:epicmorg/EMST.git" }
           - {github: "https://github.com/EpicMorg/EMTG.git", bitbucket: "git@bitbucket.org:epicmorg/emtg.git", codeberg: "git@codeberg.org:EpicMorg/EMTG.git", gitlab: "git@gitlab.com:epicmorg/EMTG.git" }
           - {github: "https://github.com/EpicMorg/EpicMorg-Supervisor.git", bitbucket: "git@bitbucket.org:epicmorg/epicmorg-supervisor.git", codeberg: "git@codeberg.org:EpicMorg/EpicMorg-Supervisor.git", gitlab: "git@gitlab.com:epicmorg/EpicMorg-Supervisor.git" }
-#          - {github: "", bitbucket: "", codeberg: "", gitlab: "" }
+          - {github: "https://github.com/EpicMorg/Gamer-Lab_SDK_Launcher.git", bitbucket: "git@bitbucket.org:epicmorg/gamer-lab_sdk_launcher.git", codeberg: "git@codeberg.org:EpicMorg/Gamer-Lab_SDK_Launcher.git", gitlab: "git@gitlab.com:epicmorg/Gamer-Lab_SDK_Launcher.git" }
 #          - {github: "", bitbucket: "", codeberg: "", gitlab: "" }
 #          - {github: "", bitbucket: "", codeberg: "", gitlab: "" }
 #          - {github: "", bitbucket: "", codeberg: "", gitlab: "" }
